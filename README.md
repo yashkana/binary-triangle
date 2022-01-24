@@ -1,28 +1,28 @@
-# binary-triangle
-using System;
+# binary-triangle<br>
+using System;<br>
 
-namespace binary1
-{
-    class binary1
-    {
-        static void Main(string[] args)
-        {
-            int number, digit = 1;
-            Console.WriteLine("\n enter the number of lines:");
-            number = Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i <= number; i++)
-            {
-                for (int space = number - i; space > 0; space--)
-                {
-                    Console.Write(" ");
-                }
-                for (int j = 0; j < i; j++)
-                {
-                    Console.Write(digit + " ");
-                    digit = (digit == 1) ? 0 : 1;
-                }
-                Console.Write("\n");
-            }
-        }
-    }
-}
+namespace binary1<br>
+{<br>
+    class binary1<br>
+    {<br>
+        static void Main(string[] args)<br>
+        {<br>
+            int number, digit = 1;<br>
+            Console.WriteLine("\n enter the number of lines:");<br>
+            number = Convert.ToInt32(Console.ReadLine());<br>
+            for (int i = 1; i <= number; i++)<br>
+            {<br>
+                for (int space = number - i; space > 0; space--)<br>
+                {<br>
+                    Console.Write(" ");<br>
+                }<br>
+                for (int j = 0; j < i; j++)<br>
+                {<br>
+                    Console.Write(digit + " ");<br>
+                    digit = (digit == 1) ? 0 : 1;<br>
+                }<br>
+                Console.Write("\n");<br>
+            }<br>
+        }<br>
+    }<br>
+}<br>
